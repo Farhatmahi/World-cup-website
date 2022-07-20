@@ -41,11 +41,13 @@
   #blogs .container aside {
     width: 100%;
     margin-bottom: 15px;
+    background: none;
   }
 
   #blogs .container aside a{
       display: block;
       width: 80%;
+      border: 1px solid #dedede;
   }
 
   #blogs .container .blogs{
