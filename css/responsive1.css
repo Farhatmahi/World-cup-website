@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+  #blogs,
+  #footer {
+    display: none;
+  }
+
+  .container{
+      width: 80%;
+  }
+  #banner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #banner .container .banner-text {
+    text-align: center;
+  }
+
+  #banner .container .banner-text h1 {
+    font-size: 22px;
+  }
+
+  #banner .container .banner-img {
+    padding: 0;
+    width: 80%;
+  }
+}

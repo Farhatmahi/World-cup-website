@@ -14,7 +14,8 @@ main {
 }
 
 .container {
-  width: 1170px;
+  width: 80%;
+  margin: 0 auto;
 }
 .half-width {
   width: 50%;
@@ -78,6 +79,7 @@ main {
 
 #blogs {
   margin-bottom: 80px;
+  width: 100%;
 }
 
 #blogs .container {
@@ -138,6 +140,10 @@ main {
   margin-bottom: 20px;
 }
 
+#blogs .container .blog .versus img{
+  width: 100%;
+}
+
 #blogs .container .blog .versus p{
   margin: 0 10px;
 }
@@ -155,8 +161,9 @@ main {
 
 #footer {
   background: #161616;
-  padding: 80px;
+  padding: 80px 0;
   margin: 0;
+  width: 100%;
 }
 
 #footer .container {
