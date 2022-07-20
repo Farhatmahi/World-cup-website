@@ -1,0 +1,145 @@
+@media screen and (max-width: 480px) {
+    .container {
+      width: 90%;
+    }
+  
+    .half-width {
+      width: 70%;
+    }
+  
+    /* banner */
+  
+    #banner {
+      margin-bottom: 30px;
+    }
+  
+    #banner .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #banner .container .banner-text {
+      text-align: center;
+    }
+  
+    #banner .container .banner-text h1 {
+      font-size: 22px;
+    }
+  
+    #banner .container .banner-text p {
+      font-size: 14px;
+    }
+  
+    #banner .container .banner-text a {
+      display: inline-block;
+    }
+  
+    #banner .container .banner-img {
+      padding: 0;
+      width: 80%;
+    }
+  
+    /* blogs */
+  
+    #blogs .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #blogs .container aside {
+      width: 100%;
+      margin-bottom: 15px;
+      background: none;
+    }
+  
+    #blogs .container aside a {
+      display: block;
+      width: 80%;
+      border: 1px solid #dedede;
+    }
+  
+    #blogs .container .blogs {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    /* footer */
+  
+    #footer .container .footer-menu {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    #footer .container .footer-menu a {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+      width: 90%;
+    }
+  /* 
+    #banner, #blogs{
+        display: none;
+    } */
+  
+    /* banner */
+  
+    #banner {
+      margin-bottom: 30px;
+    }
+  
+    #banner .container .banner-text h1 {
+      font-size: 40px;
+    }
+  
+    #banner .container .banner-text p {
+      font-size: 14px;
+    }
+  
+    #banner .container .banner-text a {
+      display: inline-block;
+    }
+    #banner .container .banner-img {
+      padding: 0;
+      width: 80%;
+    }
+  
+    /* blogs */
+    #blogs .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #blogs .container aside {
+      width: 100%;
+      margin-bottom: 15px;
+      background: none;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    #blogs .container aside a {
+      display: block;
+      width: 80%;
+      border: 1px solid #dedede;
+    }
+  
+    #blogs .container .blogs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    /* footer */
+  
+  
+  
+  }
+  
