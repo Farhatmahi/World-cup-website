@@ -1,12 +1,11 @@
 @media only screen and (max-width: 600px) {
-  #blogs,
-  #footer {
-    display: none;
-  }
 
   .container{
       width: 80%;
   }
+
+  /* banner */
+
   #banner .container {
     display: flex;
     flex-direction: column;
@@ -21,9 +20,48 @@
   #banner .container .banner-text h1 {
     font-size: 22px;
   }
+  #banner .container .banner-text a {
+    display: inline-block;
+  }
 
   #banner .container .banner-img {
     padding: 0;
     width: 80%;
   }
+
+  /* blogs */
+
+  #blogs .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  #blogs .container aside {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #blogs .container aside a{
+      display: block;
+      width: 80%;
+  }
+
+  #blogs .container .blogs{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* footer */
+
+  #footer .container .footer-menu{
+      flex-direction: column;
+      text-align: center;
+  }
+
+  #footer .container .footer-menu a{
+      margin-bottom: 10px;
+  }
+
 }
